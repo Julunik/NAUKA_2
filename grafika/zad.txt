@@ -1,0 +1,9 @@
+Utwórz układ strony one page:
+
+a) nagłowek (100% szerokości, nadaj jakiś kolor tła) w którym znajdzie się na środku koło (domyślnie powinno być w nim wasze zdjęcie, ale na potrzeby sprawdzianu może być puste), pod nim wasze imię i nazwisko, dalej nagłówek SPRAWDZIAN Z WAI, na samym dole przycisk Dowiedz się wiecej, który przeniesie nas do sekcji PROJEKTY
+b) sekcja O MNIE (100% szerokości, bez tła) Nagłowek O mnie i pod spodem jakiś tekst.
+c) sekcja UMIEJĘTNOŚCI 100% szerokości + jakiś kolor (trzy umięjetności w jednym wieszu, zrób dwa takie wiersze -6 umięjetności). Wykaz umiejętności w wierszu nie musi zajmować 100% szerokości. Ważne aby były na środku strony
+Struktura: koło z obramowaniem w środku ikona(icon.png), poniżej nazwa umiejętności i jeszcze niżej opis) Przykładowe umięjętności: HTML, CSS, JavaScript, Komunikatywność, Rozwiązywanie problemów, Szybka nauka.
+d)sekcja PROJEKTY 100% szerokości, bez koloru tła (6 projektów, po trzy w wierszu). Struktura: blok z zaokrąglonymi rogami o zdefiniowanej szerokości, wysokości i kolorze. Po najechaniu na dany projekt pojawia się na nim div z nazwą tego projektu
+d) stopka 100% szerokości + jakiś kolor. Na środku Imię i nazwisko + data wykonania
+e) w sekcji nagłówek dodaj menu
