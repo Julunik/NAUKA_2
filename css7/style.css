@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap');
+
+*
+{
+    margin: 10px 0;
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+.box
+{
+    border: 2px black solid;
+    width: 50%;
+    height: 900px;
+    margin: auto;
+    overflow: auto;
+}
+
+#add_image
+{
+    margin: 10px auto;
+    display: block;
+}
+
+.fotage
+{
+    border: 2px black solid ;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+
+    transition: box-shadow .1s, width .1s, height .1s, margin .1s;
+}
+
+#image_kom
+{
+    background-color: rgba(128, 128, 128, 0.2);
+    width: 280px;
+    height: 120px;
+    resize: none;
+    color: rgb(99, 99, 99);
+    margin: -5px auto;
+    font-size: 16px;
+}
+
+.info
+{
+    border: 2px rgba(0, 0, 0, 0.13) solid;
+    background-color: rgba(128, 128, 128, 0.5);
+    width: 300px;
+    height: 300px;
+    left: 75%;
+    line-height: 0;
+    color: rgb(99, 99, 99);
+    position: fixed;
+    top: 10px;
+    left: 77%;
+    font-size: 16px;
+}
+
+#image_potwierdzenie
+{
+    margin: 10px auto;
+    color: green;
+}
+
+.info button
+{
+    color: rgb(99, 99, 99);
+    margin: 20px auto;
+    display: block;
+}
+
+.info p
+{
+    line-height: 20px;
+}
+
+.image_box
+{
+    display: inline;
+}
+
+.image_box:hover .info
+{
+    visibility: visible;
+}
+
+.fotage:hover
+{
+    box-shadow: 5px 5px 5px grey;
+    width: 110px;
+    height: 110px;
+    margin: 5px;
+}
+
+.menu
+{
+    position: absolute;
+    cursor: pointer;
+    width: 500px;
+    height: 50px;
+    border: 2px black solid;
+    transform: translateX(-450px);
+
+    transition: transform .3s;
+}
+
+.menu:hover
+{
+    transform: translateX(-250px);
+    box-shadow: 2px 2px 5px black;
+}
+
+.menu .icon
+{
+    position: absolute;
+    font-size: xx-large;
+    transform: translate(450px,-10px);
+}
+
+.menu p
+{
+    position: absolute;
+    font-size: xx-large;
+    transform: translate(250px, -5px);
+}

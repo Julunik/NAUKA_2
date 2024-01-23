@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css7 - Julek 4TIB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="add_image" onclick="AddImage()">DODAJ ZDJĘCIE</button>
+    
+    <div class="menu">
+        <p>FILMY</p><div class="icon">🎥</div>
+    </div>
+    
+    <div class="menu" style="margin: 70px 0;">
+        <p>ZDJĘCIA</p><div class="icon">📷</div>
+    </div>
+
+    <div class="menu" style="margin: 140px 0;">
+        <p style="font-size: large; margin-top: 17px;">SEGREGUJ DATAMI</p><div class="icon">📆</div>
+    </div>
+
+    <div class="box" id="box">
+        <!-- TU TWORZA SIE ZDJECIA -->
+    </div>
+
+    <div class="info">
+        <p id="image_nazwa">Nazwa: </p>
+        <p id="image_rozmiar">Rozmiar: </p>
+        <p id="image_id">ID: </p>
+        <p>Komentarz: </p>
+        <textarea type="text" id="image_kom" onchange="KomentarzChange()" onclick="PotwierdzenieOff()" maxlength="100" cols="1" rows="7"></textarea>
+        <p id="image_potwierdzenie"></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
